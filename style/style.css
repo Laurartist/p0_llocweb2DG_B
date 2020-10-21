@@ -1,0 +1,27 @@
+body{
+    background-color: aqua;
+}
+
+img{
+    float: left
+    width: 30%;
+}
+
+/*TÁBLET*/
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  body {
+    background-color: red;
+  }
+img{
+    width: 50%;
+    }
+}
+/*MÓBIL*/
+@media (max-width: 600px) {
+  body {
+    background-color: yellow;
+  }
+img{
+    width: 100%;
+    }
+}
